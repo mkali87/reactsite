@@ -2,27 +2,27 @@ import React, { useState } from "react";
 
 const Contact = () =>{
 
-const [data, setData] = useState({
-    fullname:"",
-    phone:"",
-    email:"",
-    msg:""
-})
+// const [data, setData] = useState({
+//     fullname:"",
+//     phone:"",
+//     email:"",
+//     msg:""
+// })
 
-const InputEvent = (event) => {
-    const{name,value} = event.target;
+// const InputEvent = (event) => {
+//     const{name,value} = event.target;
 
-    setData((preVal)=>{
-        return {
-            ...preVal,
-            [name]:value,
-        }
-    })
-}
-const formSubmit = (e) => {
-    e.preventDefault();
-    alert(`${data.fullname} and my mobile number is ${data.phone}`)
-};
+//     setData((preVal)=>{
+//         return {
+//             ...preVal,
+//             [name]:value,
+//         }
+//     })
+// }
+// const formSubmit = (e) => {
+//     e.preventDefault();
+//     alert(`${data.fullname} and my mobile number is ${data.phone}`)
+// };
   return(
     <>
     <section>
