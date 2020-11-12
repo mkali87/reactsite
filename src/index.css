@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body{height:100%}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:url("../src/images/bg1.jpg") no-repeat center;
+  background-attachment: fixed;  
+}
+
+p{font-size: 20px; font-weight: normal; text-align: justify;}
+section a.typewrite{text-decoration: none; cursor: default;min-height: 40px;}
+section a.typewrite .wrap{min-height: inherit; display: block;}
+
+/* ---  navbar styles --- */
+.navbar{font-family: 'Oswald', sans-serif; color:#ffffff; text-transform: uppercase;}
+.navbar a{color:inherit; font-size: 20px;}
+.navbar .display-4{font-size:3rem}
+
+.navbar .navbar-toggler{color:#fff; margin:5px 0 0 0; position:relative; right: 0; outline:0;}
+.navbar .navbar-toggler:focus .fa-toggler::before{content: "\f00d";}
+.navbar .navbar-toggler.collapsed .fa-toggler::before{content: "\f0c9";}
+
+/* ---  section styles --- */
+.brand-name{font-size: 3rem;}
+section{color:#ffffff; min-height: calc(100vh - 200px);}
+
+/* ---  footer styles --- */
+footer{position: relative; bottom:0; color:#ffffff; padding:2em 0.5em;}
+footer p{font-size: 14px; text-align: center;}
+
+/* ---  other styles --- */
+.menu_active{border-bottom: solid 1px #ffffff;}
+
+
+/* ---  Skills styles --- */
+.skillset {color:#ffffff;}
+.skillset p { 
+  margin-left:5px;
+  margin:2px 0; 
+} 
+.skillset .container {
+  width: 100%;
+  background-color: #ddd;
+  padding:0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.skillset .skills {
+  text-align: right;
+  padding: 2px 5px;
+  color: #000;
+  font-size: 14px;
+}
+
+.skillset .html {width: 90%; background-color: #4CAF50;}
+.skillset .css {width: 85%; background-color: #4CAF50;}
+.skillset .jquery {width: 80%; background-color: #2196F3;}
+.skillset .js {width: 60%; background-color: #f44336;}
+.skillset .php {width: 30%; background-color: #808080;}
+
+/* ---  Services styles --- */
+.services{color:#000}
+
+
+/* ---  Contact styles --- */
+
+.contact{
+  padding: 4%;
+  color:#000;
+}
+.contact p{font-size:14px}
+.contact .first_box{
+  background: #ddead0cc;  
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact .contact-info{
+  margin-top:10%;
+}
+.contact .contact-info img{
+  margin-bottom: 15%;
+}
+.contact .contact-info h2{
+  margin-bottom: 10%;
+}
+.contact .second_box{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact .contact-form label{
+  font-weight:600;
+}
+.contact .contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact .contact-form button:focus{
+  box-shadow:none;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
