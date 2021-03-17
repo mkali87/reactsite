@@ -16,7 +16,7 @@ const Common = (props) =>{
           <p className="my-3">{props.content}          
           </p>
           <h2 className={props.displey}> 
-   <a href="#" class="typewrite" data-period="2000" data-type='[ "Hi, I am a UI Developer.", "I am a Front End Devloper","I am a React Devloper", "I am a  Creative Designer.", "I am a Code Lover." ]'>
+   <a href="#" class="typewrite" data-period="2000" data-type='[ "Hi, I am a UI Developer.", "I am a Front End Developer","I am a React Developer", "I am a  Creative Designer.", "I am a Code Lover." ]'>
      <span class="wrap"></span>
   </a>
 </h2>
