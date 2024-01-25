@@ -1,40 +1,40 @@
-import s1 from "../src/images/thumbs/1.jpg";
-import s2 from "../src/images/thumbs/2.jpg";
-import s3 from "../src/images/thumbs/3.jpg";
-import s4 from "../src/images/thumbs/4.jpg";
-import s5 from "../src/images/thumbs/5.jpg";
-import s6 from "../src/images/thumbs/6.jpg";
+import s1 from "../src/images/thumbs/work-1.png";
+import s2 from "../src/images/thumbs/work-2.png";
+import s3 from "../src/images/thumbs/work-3.png";
+import s4 from "../src/images/thumbs/work-4.png";
+import s5 from "../src/images/thumbs/work-5.png";
+import s6 from "../src/images/thumbs/work-6.png";
 
 const Sdata = [
     {
         imgsrc:s1,
-        title:"Advance Infosolutions",
-        siteurl:"http://advanceinfosolutions.in/",
+        title:"Spirit Worx",
+        siteurl:"https://spiritworx.com/",
     },
     {
         imgsrc:s2,
-        title:"WebsFB",
-        siteurl:"https://www.websfb.com/",
+        title:"A Simple Model",
+        siteurl:"https://www.asimplemodel.com/",
     },
     {
         imgsrc:s3,
-        title:"Connect Universities",
-        siteurl:"http://connectuniversities.com/",
+        title:"Pink Attitude",
+        siteurl:"https://pinkattitude.ca/",
     },
     {
         imgsrc:s4,
-        title:"Paragonltd",
-        siteurl:"http://paragonltd.org.uk/",
+        title:"Kloman Studio",
+        siteurl:"https://kloman.ca/",
     },
     {
         imgsrc:s5,
-        title:"Atozums",
-        siteurl:"http://www.atozums.com/",
+        title:"Commloan",
+        siteurl:"https://www.commloan.com/",
     },
     {
         imgsrc:s6,
-        title:"The Chopras (tc global)",
-        siteurl:"http://www.thechopras.com/",
+        title:"WebsFB ",
+        siteurl:"https://www.websfb.com/",
     },
 ];
 

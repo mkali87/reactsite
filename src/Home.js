@@ -67,7 +67,7 @@ const Home = () =>{
     <>
     <Common 
     name={["Hello there, My Name is", <strong className="brand-name"> <br />Khurshid Ali</strong>]}
-    content={[<h2 className="text-left">"I am having more than 10 years of experience in UI Designing/Development"</h2>]}
+    content={[<h2 className="text-left">"I am having more than 12 years of experience in UI Designing/Development"</h2>]}
     imgsrc={web} 
     viewbutton={[<NavLink className="btn btn-light" to="/about">Know More</NavLink>]}
     displey="d-block"  />

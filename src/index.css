@@ -70,21 +70,22 @@ footer p{font-size: 14px; text-align: center;}
 }
 
 .skillset .html {width: 90%; background-color: #4CAF50;}
-.skillset .css {width: 85%; background-color: #4CAF50;}
-.skillset .jquery {width: 80%; background-color: #2196F3;}
-.skillset .js {width: 60%; background-color: #f44336;}
+.skillset .css {width: 90%; background-color: #4CAF50;}
+.skillset .sass {width: 65%; background-color: #2196F3;}
+.skillset .jquery {width: 85%; background-color: #4CAF50;}
+.skillset .js {width: 70%; background-color: #2196F3;}
+.skillset .photoshop {width: 80%; background-color: #4CAF50;}
 .skillset .php {width: 30%; background-color: #808080;}
 
 /* ---  Services styles --- */
 .services{color:#000}
 
-
 /* ---  Contact styles --- */
-
 .contact{
   padding: 4%;
   color:#000;
-}
+  }
+  
 .contact p{font-size:14px}
 .contact .first_box{
   background: #ddead0cc;  

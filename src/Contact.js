@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import myCV from '../src/Khurshid-CV_V9.docx';
 
 const Contact = () =>{
 
@@ -37,9 +38,10 @@ const Contact = () =>{
 				<h2>
         {/* <img className="d-block" src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" width="36" height="36" /> */}
         <span className="d-inline-block"><i className="fa fa-pencil" aria-hidden="true"></i> Get in Touch</span></h2>
-				<p>This site is created by my only via using HTML, CSS, React JS. Your valuable feedback are most welcome! If you have any query or suggestion feel free to contact me ?</p>
+				<p>This site is created by my only via using HTML, CSS, React. Your valuable feedback are most welcome! If you have any query or suggestion feel free to contact me ?</p>
         <p><i className="fa fa-envelope-o" aria-hidden="true"></i> <strong>Email</strong><br /> khurshidweb@gmail.com</p>
-        <p><i className="fa fa-mobile" aria-hidden="true"></i> <strong>Mob</strong><br /> 9540129125</p>
+        <p><i className="fa fa-mobile" aria-hidden="true" style={{fontSize: "20px"}}></i> <strong>Mob</strong><br /> 9540129125</p>
+		<p><i className="fa fa-file-text-o" aria-hidden="true"></i> <strong>CV</strong><br /> <a href={myCV} className="btn-link" rel="noopener noreferrer" download="Khurshid-CV">Get My CV</a></p>
 			</div>
 		</div>
 		<div className="col-md-8 col-12 second_box my-2">

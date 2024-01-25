@@ -16,7 +16,7 @@ const Skills = () =>{
 
 <div className="col-md-6">
     <h1>My Skills</h1>
-    {<p>In my Career, I have worked on many technologies like HTML, CSS, Javascript, Jquery, SASS, AMP, AJAX, React JS, PHP and many more. As you know I am very hungry to learn new things. I am fond of watching tutorials online on the internet and I have Completed lot of courses in my domain from different different institutions. I am very Professional and Passionate about my work and I beleive in Team Spirit and Hard working in right direction. I have very good knowledge to completed any front end development work via using my skills set.</p> }
+    {<p>In my career, I have worked on many technologies like HTML, CSS, SASS, Javascript, Jquery, AJAX, Angular, and WordPress as well as having good experience in Photoshop, Figma, and many more. I have basic knowledge in React and I created this portfolio in React by myself. I am very hungry to learn new things. I am fond of watching tutorials online on the internet and I have Completed a lot of courses in my domain from different institutions. I am very Professional and Passionate about my work and I believe in Team Spirit and Hard work in the right direction. I have very good knowledge of completing any front-end development work by using my skill set.</p> }
 </div>
 
 <div className="col-md-5 ml-5 skillbar">
@@ -27,22 +27,27 @@ const Skills = () =>{
 
 <p>CSS</p>
 <div className="container">
-  <div className="skills css">85%</div>
+  <div className="skills css">90%</div>
+</div>
+
+<p>SASS</p>
+<div className="container">
+  <div className="skills sass">65%</div>
 </div>
 
 <p>Jquery</p>
 <div className="container">
-  <div className="skills jquery">80%</div>
+  <div className="skills jquery">85%</div>
 </div>
 
 <p>JavaScript</p>
 <div className="container">
-  <div className="skills js">60%</div>
+  <div className="skills js">70%</div>
 </div>
 
-<p>PHP</p>
+<p>Photoshop/Figma</p>
 <div className="container">
-  <div className="skills php">30%</div>
+  <div className="skills photoshop">80%</div>
 </div> 
 </div>
 
